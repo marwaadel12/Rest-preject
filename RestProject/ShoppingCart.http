@@ -1,0 +1,6 @@
+GET /Ecommerce-API/api/carts/4 HTTP/1.1
+Host: localhost:9191
+
+
+
+

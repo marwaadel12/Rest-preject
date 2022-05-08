@@ -1,0 +1,42 @@
+GET /Ecommerce-API/api/customers HTTP/1.1
+Host: localhost:9191
+
+####
+
+GET /Ecommerce-API/api/customers/2 HTTP/1.1
+Host: localhost:9191
+
+###
+
+POST /Ecommerce-API/api/customers HTTP/1.1
+Host: localhost:9191
+Content-Type:application/json
+Accept:application/json
+
+{
+  "userName":"marwa",
+  "email":"marwa@gmail.com",
+  "pass":"12345"
+}
+
+
+####
+
+
+DELETE /Ecommerce-API/api/customers/3 HTTP/1.1
+Host: localhost:9191
+Accept:application/json
+
+
+####
+PUT /Ecommerce-API/api/customers/customer HTTP/1.1
+Host: localhost:9191
+Content-Type:application/json
+Accept:application/json
+
+{"id": "1" ,
+  "userName":"marwa",
+  "email":"marwa34@gmail.com",
+  "pass":"12553"
+}
+

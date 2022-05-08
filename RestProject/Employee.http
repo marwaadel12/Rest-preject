@@ -1,0 +1,11 @@
+###
+GET /Ecommerce-API/api/employees HTTP/1.1
+Host:localhost:9191
+Accept: text/emp
+
+###
+POST /Ecommerce-API/api/employees HTTP/1.1
+Host:localhost:9191
+Content-Type: text/plain
+
+Employee [id=123, name=marwa, age=22]

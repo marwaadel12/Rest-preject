@@ -1,0 +1,38 @@
+GET /Ecommerce-API/api/categories HTTP/1.1
+Host: localhost:9191
+Content-Type: application/json
+
+####
+
+GET /Ecommerce-API/api/categories/2 HTTP/1.1
+Host: localhost:9191
+
+######
+
+POST  /Ecommerce-API/api/categories HTTP/1.1
+Host: localhost:9191
+Content-Type: application/json
+
+{
+    "categoryName": "Computer & Laptop"
+}
+
+
+####
+
+PUT   /Ecommerce-API/api/categories HTTP/1.1
+Host: localhost:9191
+Content-Type: application/json
+
+{   "categoryId":1,
+    "categoryName": "bed room"
+}
+
+
+##############################
+
+DELETE  /Ecommerce-API/api/categories/11 HTTP/1.1
+Host: localhost:9191
+
+    
+

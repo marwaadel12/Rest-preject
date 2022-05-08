@@ -1,0 +1,3 @@
+GET /Ecommerce-API/api/admins HTTP/1.1
+Host: localhost:9191
+Content-Type: application/json

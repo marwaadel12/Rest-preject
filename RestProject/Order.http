@@ -1,0 +1,32 @@
+GET /Ecommerce-API/api/orders/order/1 HTTP/1.1
+Host: localhost:9191
+Accept: application/json
+
+
+### 
+GET /Ecommerce-API/api/orders/orderId/1 HTTP/1.1
+Host: localhost:9191
+Accept: application/json
+
+
+#####
+POST /Ecommerce-API/api/orders/postOrder HTTP/1.1
+Host: localhost:9191
+Content-Type:application/json
+Accept:application/json
+
+{
+  "description":"new order",
+  "email":"ahmed@gmail.com",
+  "phoneNumber":"12345",
+  "totalPrice" : "6565"
+
+}
+
+
+####
+DELETE /Ecommerce-API/api/orders/4 HTTP/1.1
+Host: localhost:9191
+Content-Type:application/json
+Accept:application/json
+

@@ -1,0 +1,78 @@
+GET /Ecommerce-API/api/products HTTP/1.1
+Host: localhost:9191
+Accept:application/json,application/xml
+
+
+####
+
+
+GET /Ecommerce-API/api/products HTTP/1.1
+Host: localhost:9191
+Accept:application/json
+
+
+####
+
+GET /Ecommerce-API/api/products/2 HTTP/1.1
+Host:localhost:9191
+Accept: application/json
+
+
+
+####
+
+POST /Ecommerce-API/api/products HTTP/1.1
+Host: localhost:9191
+Content-Type: application/json
+
+{
+  "category": {
+    "categoryId": 1,
+    "categoryName": "Computer & Laptop"
+  },
+  "description": "Brand: Lenovo Camera  0.3MP with Privacy Shutter",
+  "name": "Lenovo Laptop Celeron",
+  "price": 6050.0,
+  "quantity": 10
+}
+
+####
+
+PUT /Ecommerce-API/api/products HTTP/1.1
+Host: localhost:9191
+Content-Type: application/json
+
+{
+  "category": {
+    "categoryId": 1,
+    "categoryName": "Computer & Laptop"
+  },
+  "description": "Brand: Lenovo Camera  0.3MP with Privacy Shutter",
+  "id":2,
+  "name": "Lenovo Laptop Celeron",
+  "price": 6050.0,
+  "quantity": 10
+}
+
+####
+
+DELETE  /Ecommerce-API/api/products/5 HTTP/1.1
+Host: localhost:9191
+Accept: application/json
+
+####
+
+GET /Ecommerce-API/api/products/productName?name=lenovo HTTP/1.1
+Host: localhost:9191
+Accept: application/json
+
+
+####
+
+GET /Ecommerce-API/api/products/productPrice?price=6050.00 HTTP/1.1
+Host: localhost:9191
+Accept: application/json
+
+
+
+
