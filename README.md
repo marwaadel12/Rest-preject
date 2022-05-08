@@ -31,14 +31,13 @@ E-commerce Rest preject
 
 # ⚙ Technologies used
 * Maven
-* Servlets
-* Jsp
-* Bean Validation (Hibernate Validator)
+* JPA
 * MySQL
-* Stripe
+* Rest servecis
+
 
 # 🛠 How to run
-**Docker**
+
 * Go to the project root folder
 * Packge the project using this command:
 ```maven
