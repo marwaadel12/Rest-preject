@@ -41,7 +41,7 @@ https://documenter.getpostman.com/view/14914274/UyxdL9Xu
 
 # 🛠 How to run
 
-* Go to the project root folder
+* Go to the server folder
 * Packge the project using this command:
 ```maven
 mvn clean package tomcat7:redeploy
