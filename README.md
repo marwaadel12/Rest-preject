@@ -5,6 +5,7 @@ E-commerce Rest preject
 https://documenter.getpostman.com/view/14914274/UyxdL9Xu
 
 
+
 # ⚙ Features
 * Add product
 * update product
@@ -36,7 +37,11 @@ https://documenter.getpostman.com/view/14914274/UyxdL9Xu
 * Maven
 * JPA
 * MySQL
-* Rest servecis
+* JAX-RS (Jersey)
+* JSON-B
+* JAX-B
+* Tomcat
+* Postman
 
 
 # 🛠 How to run
