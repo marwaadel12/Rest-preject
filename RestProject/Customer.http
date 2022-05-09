@@ -14,21 +14,14 @@ Content-Type:application/json
 Accept:application/json
 
 {
-  "userName":"marwa",
-  "email":"marwa@gmail.com",
+  "userName":"nouraaaaa",
+  "email":"nouraaaaaa@gmail.com",
   "pass":"12345"
 }
 
 
 ####
 
-
-DELETE /Ecommerce-API/api/customers/3 HTTP/1.1
-Host: localhost:9191
-Accept:application/json
-
-
-####
 PUT /Ecommerce-API/api/customers/customer HTTP/1.1
 Host: localhost:9191
 Content-Type:application/json

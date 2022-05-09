@@ -25,7 +25,7 @@ Accept:application/json
 
 
 ####
-DELETE /Ecommerce-API/api/orders/4 HTTP/1.1
+DELETE /Ecommerce-API/api/orders/25 HTTP/1.1
 Host: localhost:9191
 Content-Type:application/json
 Accept:application/json
